@@ -67,7 +67,7 @@ if __name__=='__main__':
         sym_change = go_list(sym)                                            # Проверяем каждый символ.
         pattern_list = change_pattern_list(pattern_list, sym_change)         # Модифицируем список заменяя элементы.
     test_list = [sym for sym in test_list if sym != '-']
-    if check_all(test_list, set_control):                                    # проверяем валидность строки
+    if check_all(test_list, set_control):                                    # Проверяем валидность строки,
         print('true')                                                        # если расстановка валидная выводим 'true'.
 
 
